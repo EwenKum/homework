@@ -1,0 +1,7 @@
+my_string = input('Какова твоя профессия?: ')
+print(len(my_string))
+print(my_string.upper())
+print(my_string.lower())
+my_string = input('Какова твоя профессия?: '.replace(' ', ''))
+print(my_string[0])
+print(my_string[-1])
